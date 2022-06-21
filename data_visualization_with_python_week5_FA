@@ -115,7 +115,7 @@ app.layout = html.Div(children=[
                                             html.H2('Choose Year:', style={'margin-right': '2em'})
                                             ]
                                         ),
-                                        dcc.Dropdown(id='input-year', 
+                                        dcc.Dropdown(id='2005-2010', 
                                                      # Update dropdown values using list comphrehension
                                                      options=[{'label': i, 'value': i} for i in year_list],
                                                      placeholder="Select a year",
